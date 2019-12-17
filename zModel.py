@@ -84,3 +84,5 @@ def temperaturesByTime(razredi=[(-100, 100)], filename='meteorological_year_ljub
                 dailyRadiationAgragate = 0
         # We have finished the for loop
         return returnData()
+
+
