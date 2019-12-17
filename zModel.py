@@ -70,7 +70,7 @@ def temperaturesByTime(razredi=[(-100, 100)], filename='meteorological_year_ljub
             # Add the temperature to the daily agregate
             dailyAgregate = dailyAgregate + float(m[3])
             # Add the radiation to the daily agregate
-            dailyRadiationAgragate = dailyRadiationAgragate + float(m[4])
+            dailyRadiationAgragate = dailyRadiationAgragate + float(m[5])
             # If we have reached the last hour
             if(float(m[2]) == 23):
                 # Get the daily average temperature
